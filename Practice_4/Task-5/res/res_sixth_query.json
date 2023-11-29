@@ -1,0 +1,200 @@
+[
+  {
+    "name": "*Worthington",
+    "intake_type": "Stray",
+    "outcome_type": "Adoption",
+    "age": 18.0
+  },
+  {
+    "name": "Peter",
+    "intake_type": "Stray",
+    "outcome_type": "Adoption",
+    "age": 18.0
+  },
+  {
+    "name": "Jack",
+    "intake_type": "Stray",
+    "outcome_type": "Adoption",
+    "age": 18.0
+  },
+  {
+    "name": "Nuts",
+    "intake_type": "Stray",
+    "outcome_type": "Adoption",
+    "age": 17.0
+  },
+  {
+    "name": "Nuts",
+    "intake_type": "Stray",
+    "outcome_type": "Adoption",
+    "age": 17.0
+  },
+  {
+    "name": "*Cici",
+    "intake_type": "Stray",
+    "outcome_type": "Adoption",
+    "age": 17.0
+  },
+  {
+    "name": "Macie",
+    "intake_type": "Stray",
+    "outcome_type": "Adoption",
+    "age": 16.0
+  },
+  {
+    "name": "Boots",
+    "intake_type": "Stray",
+    "outcome_type": "Adoption",
+    "age": 16.0
+  },
+  {
+    "name": "Gabby",
+    "intake_type": "Stray",
+    "outcome_type": "Adoption",
+    "age": 16.0
+  },
+  {
+    "name": "Chaco",
+    "intake_type": "Stray",
+    "outcome_type": "Adoption",
+    "age": 16.0
+  },
+  {
+    "name": "Ricky",
+    "intake_type": "Stray",
+    "outcome_type": "Adoption",
+    "age": 16.0
+  },
+  {
+    "name": "Jojo",
+    "intake_type": "Stray",
+    "outcome_type": "Adoption",
+    "age": 16.0
+  },
+  {
+    "name": "Mabel",
+    "intake_type": "Stray",
+    "outcome_type": "Adoption",
+    "age": 16.0
+  },
+  {
+    "name": "Patches",
+    "intake_type": "Stray",
+    "outcome_type": "Adoption",
+    "age": 15.0
+  },
+  {
+    "name": "Peggy",
+    "intake_type": "Stray",
+    "outcome_type": "Adoption",
+    "age": 15.0
+  },
+  {
+    "name": "Jade",
+    "intake_type": "Stray",
+    "outcome_type": "Adoption",
+    "age": 15.0
+  },
+  {
+    "name": "Trixie",
+    "intake_type": "Stray",
+    "outcome_type": "Adoption",
+    "age": 15.0
+  },
+  {
+    "name": "Ruby",
+    "intake_type": "Stray",
+    "outcome_type": "Adoption",
+    "age": 15.0
+  },
+  {
+    "name": "Patches",
+    "intake_type": "Stray",
+    "outcome_type": "Adoption",
+    "age": 15.0
+  },
+  {
+    "name": "Blanche D.",
+    "intake_type": "Stray",
+    "outcome_type": "Adoption",
+    "age": 15.0
+  },
+  {
+    "name": "Blanche D.",
+    "intake_type": "Stray",
+    "outcome_type": "Adoption",
+    "age": 15.0
+  },
+  {
+    "name": "*Jules",
+    "intake_type": "Stray",
+    "outcome_type": "Adoption",
+    "age": 15.0
+  },
+  {
+    "name": "Baxter",
+    "intake_type": "Stray",
+    "outcome_type": "Adoption",
+    "age": 15.0
+  },
+  {
+    "name": "Shooter",
+    "intake_type": "Stray",
+    "outcome_type": "Adoption",
+    "age": 15.0
+  },
+  {
+    "name": "Anubis",
+    "intake_type": "Stray",
+    "outcome_type": "Adoption",
+    "age": 15.0
+  },
+  {
+    "name": "Nala",
+    "intake_type": "Stray",
+    "outcome_type": "Adoption",
+    "age": 15.0
+  },
+  {
+    "name": "Manhattan",
+    "intake_type": "Stray",
+    "outcome_type": "Adoption",
+    "age": 15.0
+  },
+  {
+    "name": "Manhattan",
+    "intake_type": "Stray",
+    "outcome_type": "Adoption",
+    "age": 15.0
+  },
+  {
+    "name": "*Polly",
+    "intake_type": "Stray",
+    "outcome_type": "Adoption",
+    "age": 15.0
+  },
+  {
+    "name": "Yao",
+    "intake_type": "Stray",
+    "outcome_type": "Adoption",
+    "age": 15.0
+  },
+  {
+    "name": "Sammy",
+    "intake_type": "Stray",
+    "outcome_type": "Adoption",
+    "age": 15.0
+  },
+  {
+    "name": "Herbie",
+    "intake_type": "Stray",
+    "outcome_type": "Adoption",
+    "age": 15.0
+  },
+  {
+    "name": "Sissy",
+    "intake_type": "Stray",
+    "outcome_type": "Adoption",
+    "age": 15.0
+  }
+]

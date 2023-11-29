@@ -1,0 +1,82 @@
+[
+  {
+    "outcome_type": "Adoption",
+    "sum": 91785.97,
+    "min": 0.0,
+    "max": 19.0,
+    "avg": 1.66,
+    "count": 55347
+  },
+  {
+    "outcome_type": "Died",
+    "sum": 1724.04,
+    "min": 0.0,
+    "max": 16.0,
+    "avg": 1.49,
+    "count": 1156
+  },
+  {
+    "outcome_type": "Disposal",
+    "sum": 783.94,
+    "min": 0.0,
+    "max": 16.0,
+    "avg": 1.38,
+    "count": 568
+  },
+  {
+    "outcome_type": "Euthanasia",
+    "sum": 20493.59,
+    "min": 0.0,
+    "max": 23.0,
+    "avg": 2.45,
+    "count": 8381
+  },
+  {
+    "outcome_type": "Missing",
+    "sum": 98.98,
+    "min": 0.038,
+    "max": 15.0,
+    "avg": 1.43,
+    "count": 69
+  },
+  {
+    "outcome_type": "Relocate",
+    "sum": 38.41,
+    "min": 0.077,
+    "max": 18.0,
+    "avg": 1.75,
+    "count": 22
+  },
+  {
+    "outcome_type": "Return to Owner",
+    "sum": 84515.04,
+    "min": 0.0,
+    "max": 24.0,
+    "avg": 3.93,
+    "count": 21517
+  },
+  {
+    "outcome_type": "Rto-Adopt",
+    "sum": 2372.35,
+    "min": 0.016,
+    "max": 17.0,
+    "avg": 3.4,
+    "count": 698
+  },
+  {
+    "outcome_type": "Transfer",
+    "sum": 59268.59,
+    "min": 0.0,
+    "max": 25.0,
+    "avg": 1.61,
+    "count": 36713
+  },
+  {
+    "outcome_type": "not specified",
+    "sum": 35.83,
+    "min": 0.0,
+    "max": 8.0,
+    "avg": 1.79,
+    "count": 20
+  }
+]

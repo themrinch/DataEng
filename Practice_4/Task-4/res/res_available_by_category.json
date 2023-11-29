@@ -1,0 +1,123 @@
+[
+  {
+    "id": 48,
+    "name": "delightful apricot",
+    "price": 95.61,
+    "quantity": 619,
+    "category": "fruit",
+    "fromCity": "Кадакес",
+    "isAvailable": "1",
+    "views": 90743,
+    "version": 6
+  },
+  {
+    "id": 161,
+    "name": "amazing plum",
+    "price": 57.79,
+    "quantity": 399,
+    "category": "fruit",
+    "fromCity": "Вальядолид",
+    "isAvailable": "1",
+    "views": 73172,
+    "version": 8
+  },
+  {
+    "id": 33,
+    "name": "pleasant orange",
+    "price": 97.77,
+    "quantity": 900,
+    "category": "fruit",
+    "fromCity": "Семана",
+    "isAvailable": "1",
+    "views": 68049,
+    "version": 0
+  },
+  {
+    "id": 89,
+    "name": "tasteful strawberry",
+    "price": 16.25,
+    "quantity": 824,
+    "category": "fruit",
+    "fromCity": "Авилес",
+    "isAvailable": "1",
+    "views": 59567,
+    "version": 0
+  },
+  {
+    "id": 88,
+    "name": "sublime pineapple",
+    "price": 18.5,
+    "quantity": 933,
+    "category": "fruit",
+    "fromCity": "Льейда",
+    "isAvailable": "1",
+    "views": 54247,
+    "version": 4
+  },
+  {
+    "id": 143,
+    "name": "marvelous mango",
+    "price": 26.83,
+    "quantity": 743,
+    "category": "fruit",
+    "fromCity": "Виго",
+    "isAvailable": "1",
+    "views": 42303,
+    "version": 1
+  },
+  {
+    "id": 38,
+    "name": "beautiful guava",
+    "price": 54.04,
+    "quantity": 1052,
+    "category": "fruit",
+    "fromCity": "Бишкек",
+    "isAvailable": "1",
+    "views": 23399,
+    "version": 3
+  },
+  {
+    "id": 97,
+    "name": "superb strawberry",
+    "price": 35.75,
+    "quantity": 656,
+    "category": "fruit",
+    "fromCity": "Самора",
+    "isAvailable": "1",
+    "views": 19371,
+    "version": 1
+  },
+  {
+    "id": 144,
+    "name": "superb mango",
+    "price": 78.67,
+    "quantity": 618,
+    "category": "fruit",
+    "fromCity": "Варшава",
+    "isAvailable": "1",
+    "views": 17096,
+    "version": 0
+  },
+  {
+    "id": 109,
+    "name": "beautiful blueberry",
+    "price": 26.29,
+    "quantity": 1020,
+    "category": "fruit",
+    "fromCity": "Аликанте",
+    "isAvailable": "1",
+    "views": 14899,
+    "version": 8
+  },
+  {
+    "id": 26,
+    "name": "pleasant grapes",
+    "price": 89.07,
+    "quantity": 575,
+    "category": "fruit",
+    "fromCity": "Таллин",
+    "isAvailable": "1",
+    "views": 4408,
+    "version": 0
+  }
+]

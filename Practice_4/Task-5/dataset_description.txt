@@ -1,0 +1,7 @@
+Данные о приеме (intakes) в приют для животных "Austin Animal Center"
+и перенаправлении/переселении (outakes) животных из него.
+Прием (intakes) в приют отражает статус питомца по его прибытию в приют.
+Перенаправление/переселение (outakes) из приюта отражает статус питомца по его отбытию из приюта.
+
+DataSet URL:
+https://www.kaggle.com/datasets/jackdaoud/animal-shelter-analytics?select=Austin_Animal_Center_Outcomes.csv

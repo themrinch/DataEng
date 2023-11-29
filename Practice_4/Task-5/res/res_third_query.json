@@ -1,0 +1,26 @@
+[
+  {
+    "intake_type": "Abandoned",
+    "freq": 0.0023
+  },
+  {
+    "intake_type": "Euthanasia Request",
+    "freq": 0.0021
+  },
+  {
+    "intake_type": "Owner Surrender",
+    "freq": 0.1982
+  },
+  {
+    "intake_type": "Public Assist",
+    "freq": 0.0614
+  },
+  {
+    "intake_type": "Stray",
+    "freq": 0.6965
+  },
+  {
+    "intake_type": "Wildlife",
+    "freq": 0.0395
+  }
+]
