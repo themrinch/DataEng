@@ -44,7 +44,7 @@ def get_first_query(db, name):
     return items
 
 
-# Количество наград в каждой игре, отсортированные в порядке возрастания
+# Количество призовых мест в каждой игре, отсортированные в порядке возрастания
 def get_second_query(db):
     cursor = db.cursor()
     res = cursor.execute("""
@@ -80,21 +80,19 @@ def get_third_query(db):
     return items
 
 
+def write_json(filename, data):
+    with open(filename, 'w', encoding='utf-8') as file:
+        file.write(json.dumps(data, ensure_ascii=False))
+
+
 #items = parse_data('task_2_var_33_subitem.msgpack')
 db = connect_to_db('task-1.db')
 #insert_data(db, items)
 
 first_query = get_first_query(db, 'Вейк-ан-Зее 1993')
-
-with open('res-2/res_first_query.json', 'w', encoding='utf-8') as file:
-    file.write(json.dumps(first_query, ensure_ascii=False))
-
 second_query = get_second_query(db)
-
-with open('res-2/res_second_query.json', 'w', encoding='utf-8') as file:
-    file.write(json.dumps(second_query, ensure_ascii=False))
-
 third_query = get_third_query(db)
-with open('res-2/res_third_query.json', 'w', encoding='utf-8') as file:
-    file.write(json.dumps(third_query, ensure_ascii=False))
 
+write_json('res-2/res_first_query.json', first_query)
+write_json('res-2/res_second_query.json', second_query)
+write_json('res-2/res_third_query.json', third_query)

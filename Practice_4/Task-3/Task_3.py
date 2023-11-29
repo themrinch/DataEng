@@ -120,26 +120,21 @@ def filter_by_year(db, min_year, limit):
     return filtered
 
 
+def write_json(filename, data):
+    with open(filename, 'w', encoding='utf-8') as file:
+        file.write(json.dumps(data, ensure_ascii=False))
+
+
 #items = load_data_text('task_3_var_33_part_1.text') + load_data_csv('task_3_var_33_part_2.csv')
 db = connect_to_db('task-3.db')
 #insert_data(db, items)
 
 top_by_tempo = get_top_by_tempo(db, 43)
-
-with open('res/res_top_by_tempo.json', 'w', encoding='utf-8') as file:
-    file.write(json.dumps(top_by_tempo, ensure_ascii=False))
-
 stat_by_loudness = get_stat_by_loudness(db)
-
-with open('res/res_stat_by_loudness.json', 'w', encoding='utf-8') as file:
-    file.write(json.dumps(stat_by_loudness))
-
 freq_by_artist = get_freq_by_artist(db)
-
-with open('res/res_freq_by_artist.json', 'w', encoding='utf-8') as file:
-    file.write(json.dumps(freq_by_artist, ensure_ascii=False))
-
 filtered_by_year = filter_by_year(db, 2010, 48)
 
-with open('res/res_filtered_by_year.json', 'w', encoding='utf-8') as file:
-    file.write(json.dumps(filtered_by_year, ensure_ascii=False))
+write_json('res/res_top_by_tempo.json', top_by_tempo)
+write_json('res/res_stat_by_loudness.json', stat_by_loudness)
+write_json('res/res_freq_by_artist.json', freq_by_artist)
+write_json('res/res_filtered_by_year.json', filtered_by_year)

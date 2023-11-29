@@ -85,6 +85,12 @@ def filter_by_time_on_game(db, min_time_on_game, limit):
     return filtered
 
 
+def write_json(filename, data):
+    with open(filename, 'w', encoding='utf-8') as file:
+        file.write(json.dumps(data, ensure_ascii=False))
+
+
+
 #items = parse_data('task_1_var_33_item.pkl')
 
 db = connect_to_db('task-1.db')
@@ -92,22 +98,13 @@ db = connect_to_db('task-1.db')
 #insert_data(db, items)
 
 top_by_min_rating = get_top_by_min_rating(db, 43)
-
-with open('res-1/res_top_by_min_rating.json', 'w', encoding='utf-8') as file:
-    file.write(json.dumps(top_by_min_rating, ensure_ascii=False))
-
 stat_by_tours_count = get_stat_by_tours_count(db)
-
-with open('res-1/res_stat_by_tours_count.json', 'w', encoding='utf-8') as file:
-    file.write(json.dumps(stat_by_tours_count))
-
 freq_by_system = get_freq_by_system(db)
-
-with open('res-1/res_freq_by_system.json', 'w', encoding='utf-8') as file:
-    file.write(json.dumps(freq_by_system, ensure_ascii=False))
-
 filtered_by_time_on_game = filter_by_time_on_game(db, 100, 43)
 
-with open('res-1/res_filtered_by_time_on_game.json', 'w', encoding='utf-8') as file:
-    file.write(json.dumps(filtered_by_time_on_game, ensure_ascii=False))
+write_json('res-1/res_top_by_min_rating.json', top_by_min_rating)
+write_json('res-1/res_stat_by_tours_count.json', stat_by_tours_count)
+write_json('res-1/res_freq_by_system.json', freq_by_system)
+write_json('res-1/res_filtered_by_time_on_game.json', filtered_by_time_on_game)
+
 
