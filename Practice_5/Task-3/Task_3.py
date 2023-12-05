@@ -69,7 +69,7 @@ def increase_salary_by_city(collection):
 
 def increase_salary_complex_query(collection):
     filter = {
-        'city': {'$nin': ['Москва', 'Хихон', 'София']},
+        'city': 'Москва',
         'job': {'$in': ['Врач', 'Строитель', 'Продавец']},
         '$or': [
             {'age': {'$gt': 18, '$lt': 25}},

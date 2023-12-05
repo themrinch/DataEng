@@ -186,7 +186,6 @@ def my_query(collection):
     write_json('res/res_my_query.json', items)
 
 
-
 #data = get_from_pkl('task_2_item.pkl')
 #insert_many(connect(), data)
 
