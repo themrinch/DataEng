@@ -1,0 +1,1 @@
+{"latitude": "float32", "longitude": "float32", "brightness": "float32", "scan": "float32", "track": "float32", "satellite": "category", "confidence": "uint8", "frp": "float32", "daynight": "category", "type": "uint8"}

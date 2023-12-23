@@ -1,0 +1,1 @@
+{"schedule_id": "category", "premium": "bool", "employer_trusted": "category", "salary_from": "float32", "salary_to": "float32", "salary_currency": "category", "address_building": "category", "address_lat": "float32", "address_lng": "float32", "prof_classes_found": "category"}

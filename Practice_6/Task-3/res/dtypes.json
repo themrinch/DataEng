@@ -1,0 +1,1 @@
+{"YEAR": "uint16", "DAY_OF_WEEK": "uint8", "AIRLINE": "category", "ORIGIN_AIRPORT": "category", "DESTINATION_AIRPORT": "category", "DEPARTURE_DELAY": "float32", "TAXI_OUT": "float32", "AIR_TIME": "float32", "DISTANCE": "uint16", "TAXI_IN": "float32"}

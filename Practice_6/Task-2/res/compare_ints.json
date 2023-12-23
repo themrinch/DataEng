@@ -1,0 +1,1 @@
+{"dataset_float_mem_usage":"3.81 MB","converted_float_mem_usage":"0.76 MB","compare_floats":{"before":{"askPrice":"int64","vf_Seats":"int64","vf_WheelSizeRear":"int64","vf_Wheels":"int64","vf_Windows":"int64"},"after":{"askPrice":"uint32","vf_Seats":"uint8","vf_WheelSizeRear":"uint8","vf_Wheels":"uint8","vf_Windows":"uint8"}}}

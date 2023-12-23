@@ -1,0 +1,1 @@
+{"dataset_float_mem_usage":"2.29 MB","converted_float_mem_usage":"0.38 MB","compare_floats":{"before":{"acq_time":"int64","confidence":"int64","type":"int64"},"after":{"acq_time":"uint16","confidence":"uint8","type":"uint8"}}}

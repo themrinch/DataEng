@@ -1,0 +1,1 @@
+{"dataset_float_mem_usage":"0.76 MB","converted_float_mem_usage":"0.38 MB","compare_floats":{"before":{"vf_WheelBaseShort":"float64"},"after":{"vf_WheelBaseShort":"float32"}}}

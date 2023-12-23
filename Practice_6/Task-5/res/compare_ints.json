@@ -1,0 +1,1 @@
+{"dataset_float_mem_usage":"14.63 MB","converted_float_mem_usage":"5.48 MB","compare_floats":{"before":{"spkid":"int64","epoch_mjd":"int64"},"after":{"spkid":"uint32","epoch_mjd":"uint16"}}}
