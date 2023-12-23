@@ -69,20 +69,16 @@ def get_column_stat_by_column(collection, by_column_name, stat_column_name):
 def max_mass_by_min_year(collection):
     q = [
         {
-            '$group': {
-                '_id': '$year',
-                'max_mass(g)': {'$max': '$mass(g)'}
+            '$sort': {
+                'mass(g)': 1,
+                'year': -1
             }
         },
         {
-            '$group': {
-                '_id': 'result',
-                'min_year': {'$min': '$_id'},
-                'max_mass(g)': {'$max': '$max_mass(g)'}
-            }
+            '$limit': 1
         }
     ]
-    items = collection.aggregate(q)
+    items = collection.find(q)
     write_json('res-aggregation/res_max_mass_by_min_year.json', items)
 
 

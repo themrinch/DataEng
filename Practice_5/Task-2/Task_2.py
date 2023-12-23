@@ -73,40 +73,32 @@ def get_column_stat_by_column(collection, by_column_name, stat_column_name):
 def max_salary_by_min_age(collection):
     q = [
         {
-            '$group': {
-                '_id': '$age',
-                'max_salary': {'$max': '$salary'}
+            '$sort': {
+                'age': 1,
+                'salary': -1
             }
         },
         {
-            '$group': {
-                '_id': 'result',
-                'min_age': {'$min': '$_id'},
-                'max_salary': {'$max': '$max_salary'}
-            }
+            '$limit': 1
         }
     ]
-    items = collection.aggregate(q)
+    items = collection.find(q)
     write_json('res/res_max_salary_by_min_age.json', items)
 
 
 def min_salary_by_max_age(collection):
     q = [
         {
-            '$group': {
-                '_id': '$age',
-                'min_salary': {'$min': '$salary'}
+            '$sort': {
+                'salary': 1,
+                'age': -1
             }
         },
         {
-            '$group': {
-                '_id': 'result',
-                'max_age': {'$max': '$_id'},
-                'min_salary': {'$min': '$min_salary'}
-            }
+            '$limit': 1
         }
     ]
-    items = collection.aggregate(q)
+    items = collection.find(q)
     write_json('res/res_min_salary_by_max_age.json', items)
 
 
